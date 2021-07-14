@@ -1,0 +1,10 @@
+//JavaScript
+//Objetos
+
+const pessoa = {
+nome: "Luana",
+idade: 22,
+ehMaiordeIdade: true
+};
+
+console.log(pessoa);
