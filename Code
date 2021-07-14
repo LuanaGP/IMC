@@ -1,0 +1,8 @@
+//IMC
+// imc - massa(kg)/altura(metro)_ao_quadrado
+
+const massa = 58;
+const altura = 1.64;
+
+const imc = massa / (altura * altura);
+console.log(imc);
