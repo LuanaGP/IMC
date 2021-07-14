@@ -2,9 +2,10 @@
 //Objetos
 
 const pessoa = {
-nome: "Luana",
+nome: "Jose",
 idade: 22,
 ehMaiordeIdade: true
+altura: 1.64
 };
 
 console.log(pessoa);
