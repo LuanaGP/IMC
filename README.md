@@ -1,3 +1,3 @@
-# Programação do Zero - CUBO
+# Programação do Zero - CUBO ACADEMY
 
 Programas básicos em JavaScript
