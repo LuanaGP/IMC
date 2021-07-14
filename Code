@@ -1,4 +1,6 @@
-//IMC
+JavaScript
+
+//IMC 
 // imc - massa(kg)/altura(metro)_ao_quadrado
 
 const massa = 58;
