@@ -5,3 +5,28 @@ function cumprimentarPessoa(nome){
 }
 
 cumprimentarPessoa("Jose");
+
+//Função de compras
+
+
+function desconto(valor, hora, cupom){
+
+let valorDesconto; 
+
+  if(cupom === "RANGOBARATO"){
+    if(hora >= 12 && hora < 14){
+      if(valor >= 100){
+        valorDesconto = valor * 20/100
+      }else{
+       valorDesconto = valor * 10/100
+      }
+      console.log("O valor do desconto é: " + valorDesconto);
+    }else{
+      console.log("Fora do horário");
+    }
+  }else{
+    console.log("Cupom inválido");
+  }
+}
+
+desconto(150, 13, "RANGOBARATO");
