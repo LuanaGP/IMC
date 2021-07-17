@@ -1,0 +1,6 @@
+//Imprimir Array
+//Com for
+
+for (let indice = 0; indice < listadeCompras.length; indice++){
+  console.log(listadeCompras[indice]);
+}
