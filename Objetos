@@ -8,4 +8,8 @@ ehMaiordeIdade: true
 altura: 1.64
 };
 
-console.log(pessoa);
+if (pessoa.idade >= 18){
+  console.log("É maior de idade");
+}else{
+  console.log("Não é maior de idade");
+}
