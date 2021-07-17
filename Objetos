@@ -34,3 +34,14 @@ if (pessoa.idade < 18){
 }else{
   console.log(pessoa.nome + " é idosa"):
 }
+
+//Imprimir Array
+
+const listadeCompras = ["Arroz", "Batata", "Maça"];
+
+let indice = 0;
+
+while (indice < listadeCompras.length){
+  console.log(listadeCompras[indice]);
+  indice++;
+}
