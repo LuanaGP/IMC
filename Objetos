@@ -8,6 +8,13 @@ ehMaiordeIdade: true
 altura: 1.64
 };
 
+//Verificar se pode entrar no parque com operadores lógicos
+if(pessoa.idade > 12 || pessoa.altura > 1.40){
+    console.log(pessoa.nome + " Pode entrar no parque");
+  }else{
+    console.log(pessoa.nome + " Não pode entrar no parque");
+  }
+
 //Verificar se pode andar no parque
 if(pessoa.idade > 12){
   if(pessoa.altura > 1.40){
