@@ -1,0 +1,10 @@
+//Com While
+
+const listadeCompras = ["Arroz", "Batata", "Maça"];
+
+let indice = 0;
+
+while (indice < listadeCompras.length){
+  console.log(listadeCompras[indice]);
+  indice++;
+}
