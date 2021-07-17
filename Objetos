@@ -8,60 +8,8 @@ ehMaiordeIdade: true
 altura: 1.64
 };
 
-//Verificar se pode entrar no parque com operadores lógicos
-if(pessoa.idade > 12 || pessoa.altura > 1.40){
-    console.log(pessoa.nome + " Pode entrar no parque");
-  }else{
-    console.log(pessoa.nome + " Não pode entrar no parque");
-  }
 
-//Verificar se pode andar no parque
-if(pessoa.idade > 12){
-  if(pessoa.altura > 1.40){
-    console.log(pessoa.nome + " Pode entrar no parque");
-  }else{
-    console.log(pessoa.nome + "Não tem altura mínima");
-  }
-  }else{
-    console.log(pessoa.nome + " Não tem idade mínima");
-  }
 
-//verificar se é maior de idade
-if (pessoa.idade < 18){
-  console.log(pessoa.nome + " É menor de idade");
-}else if (pessoa.idade < 60){
-  console.log(pessoa.nome + " é adulta");
-}else{
-  console.log(pessoa.nome + " é idosa"):
-}
 
-//Imprimir Array
-//Com for
 
-for (let indice = 0; indice < listadeCompras.length; indice++){
-  console.log(listadeCompras[indice]);
-}
 
-//Com While
-
-const listadeCompras = ["Arroz", "Batata", "Maça"];
-
-let indice = 0;
-
-while (indice < listadeCompras.length){
-  console.log(listadeCompras[indice]);
-  indice++;
-}
-
-//Pecorrer o array e imprimir os produtos com a letra A
-const listadeCompras = ["Arroz", "Batata", "Maça", "Amora"];
-
-const resultado = [];
-
-for (let item of listadeCompras){
-  if (item[0] === "A" ){
-    resultado.push(item);
-  }
-}
-
-console.log(resultado);
