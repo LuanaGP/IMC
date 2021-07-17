@@ -2,7 +2,8 @@ const pessoa = {
 nome: "Jose",
 idade: 22,
 ehMaiordeIdade: true,
-altura: 1.64
+altura: 1.64,
+temPassaporte: false
 };
 
 //Verificar se pode entrar no parque com operadores lógicos - OU
