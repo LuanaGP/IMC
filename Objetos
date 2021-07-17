@@ -52,3 +52,16 @@ while (indice < listadeCompras.length){
   console.log(listadeCompras[indice]);
   indice++;
 }
+
+//Pecorrer o array e imprimir os produtos com a letra A
+const listadeCompras = ["Arroz", "Batata", "Maça", "Amora"];
+
+const resultado = [];
+
+for (let item of listadeCompras){
+  if (item[0] === "A" ){
+    resultado.push(item);
+  }
+}
+
+console.log(resultado);
