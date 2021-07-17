@@ -1,0 +1,30 @@
+const pessoa = {
+nome: "Jose",
+idade: 22,
+ehMaiordeIdade: true,
+altura: 1.64
+};
+
+//Verificar se pode entrar no parque com operadores lógicos - OU
+
+if(pessoa.idade > 12 || pessoa.altura > 1.40){
+    console.log(pessoa.nome + " Pode entrar no parque");
+  }else{
+    console.log(pessoa.nome + " Não pode entrar no parque");
+  }
+  
+  //Verificar se pode entrar no parque com operadores lógicos - E
+if(pessoa.idade > 12 && pessoa.altura > 1.40){
+    console.log(pessoa.nome + " Pode entrar no parque");
+  }else{
+    console.log(pessoa.nome + " Não pode entrar no parque");
+  }
+  
+  //Verificar se pode entrar no parque com operadores lógicos - Negação
+  if(!pessoa.temPassaporte ){
+    console.log(pessoa.nome + " Não tem passaporte");
+  }else{
+    console.log(pessoa.nome + " Tem passaporte");
+  }
+  
+  
