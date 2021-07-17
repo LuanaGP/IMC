@@ -1,0 +1,13 @@
+//Pecorrer o array e imprimir os produtos com a letra A
+
+const listadeCompras = ["Arroz", "Batata", "Maça", "amora"];
+
+const resultado = [];
+
+for (let item of listadeCompras){
+  if (item[0] === "A" || item [0] === "a"){
+    resultado.push(item);
+  }
+}
+
+console.log(resultado);
