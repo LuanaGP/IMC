@@ -36,6 +36,13 @@ if (pessoa.idade < 18){
 }
 
 //Imprimir Array
+//Com for
+
+for (let indice = 0; indice < listadeCompras.length; indice++){
+  console.log(listadeCompras[indice]);
+}
+
+//Com While
 
 const listadeCompras = ["Arroz", "Batata", "Maça"];
 
